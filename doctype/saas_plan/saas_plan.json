@@ -1,0 +1,14 @@
+
+{
+ "doctype": "DocType",
+ "name": "SaaS Plan",
+ "module": "Dox SaaS",
+ "fields": [
+   {"label": "Plan Name", "fieldname": "plan_name", "fieldtype": "Data", "reqd": 1},
+   {"label": "Users Limit", "fieldname": "user_limit", "fieldtype": "Int"},
+   {"label": "Monthly Price", "fieldname": "monthly_price", "fieldtype": "Currency"}
+ ],
+ "permissions": [
+   {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1}
+ ]
+}

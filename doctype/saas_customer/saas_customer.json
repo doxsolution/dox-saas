@@ -1,0 +1,12 @@
+
+{
+ "doctype": "DocType",
+ "name": "SaaS Customer",
+ "module": "Dox SaaS",
+ "fields": [
+   {"label": "Site Name", "fieldname": "site_name", "fieldtype": "Data", "reqd": 1}
+ ],
+ "permissions": [
+   {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1}
+ ]
+}
